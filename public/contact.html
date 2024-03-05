@@ -1,0 +1,55 @@
+<h1>Contact Me</h1>
+<hr />
+<p>Tel: &lpar;&plus;961&rpar;79119***</p>
+<p>Email: ayahosman388@gmail.com</p>
+<p>Address: Zahle, Lebanon</p>
+<hr />
+<h2>Send me a message:</h2>
+<form action="./thankyoupage.html">
+  <div>
+    <input
+      type="text"
+      name="fullname"
+      id="name"
+      placeholder="write your full name"
+      required
+    />
+    <br />
+    <br />
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="email:user@anything.com"
+      required
+    />
+  </div>
+  <br />
+  <label for="purpose">Message Purpose: </label>
+  <select name="purpose" id="purpose">
+    <option value="">--Select an option--</option>
+    <option value="business">Business Reasons</option>
+    <option value="personal">Personal Reasons</option>
+  </select>
+  <div>
+    <br />
+    <label for="female">SELECT YOUR GENDER:</label>
+    <br />
+    <input type="radio" name="gender" id="female" value="female" />
+    <label for="female">Female</label>
+    <br />
+    <input type="radio" name="gender" id="male" value="male" />
+    <label for="male">Male</label>
+  </div>
+  <br />
+  <textarea
+    name="message"
+    id="message"
+    cols="50"
+    rows="10"
+    placeholder="Write your message here"
+  ></textarea>
+  <br />
+  <br />
+  <button>Submit</button>
+</form>
